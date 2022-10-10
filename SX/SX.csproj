@@ -15,29 +15,32 @@
 
     <ItemGroup>
         <Reference Include="GmmlConfig, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\libs\gmml\mods\GmmlConfig\GmmlConfig.dll</HintPath>
+            <HintPath>..\libs\GmmlConfig.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="GmmlHooker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\libs\gmml\mods\GmmlHooker\GmmlHooker.dll</HintPath>
+            <HintPath>..\libs\GmmlHooker.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="GmmlInteropGenerator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\libs\gmml\patcher\GmmlInteropGenerator.dll</HintPath>
+            <HintPath>..\libs\GmmlInteropGenerator.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="GmmlPatcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\libs\gmml\patcher\GmmlPatcher.dll</HintPath>
+            <HintPath>..\libs\GmmlPatcher.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UndertaleModLib, Version=0.4.0.4, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\libs\gmml\patcher\UndertaleModLib.dll</HintPath>
+            <HintPath>..\libs\UndertaleModLib.dll</HintPath>
             <Private>False</Private>
         </Reference>
+		<Reference Include="TSIMPH_API">
+			<HintPath>..\libs\TSIMPH_API.dll</HintPath>
+		</Reference>
     </ItemGroup>
 
     <ItemGroup>
-        <Analyzer Include="..\libs\gmml\patcher\GmmlInteropGenerator.dll" />
+        <Analyzer Include="..\libs\GmmlInteropGenerator.dll" />
     </ItemGroup>
 
     <Target Name="SetCurrentPath" AfterTargets="Build">

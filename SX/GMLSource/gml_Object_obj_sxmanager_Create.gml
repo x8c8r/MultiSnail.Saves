@@ -1,0 +1,1 @@
+global.sx_speed = 60

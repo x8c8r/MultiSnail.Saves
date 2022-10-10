@@ -1,6 +1,6 @@
 {
-    "id": "xyz.x8c8r.snailxacks",
-    "name": "SnailXacks",
+    "id": "com.github.x8c8r.sx",
+    "name": "SX",
     "version": "1.0.0",
     "authors": [ "x8c8r" ],
     "dependencies": [

@@ -1,5 +1,5 @@
-# SnailXacks
-
+# SX
+*this is basically snailax but with actual hacks*
 
 ## Installation
 1. Install [GMML](https://github.com/cgytrus/gmml)
