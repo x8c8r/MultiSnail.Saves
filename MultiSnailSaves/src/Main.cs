@@ -49,7 +49,7 @@ public class Main : IGameMakerMod {
 
         ReplaceBuiltInFunction("_file_text_open_write", "file_text_open_write", @"if (string_count(working_directory, argument0) == 0)
             return file_text_open_write(global.save_directory + argument0)
-            return file_text_open_write(argument0)", 1, data);
+        return file_text_open_write(argument0)", 1, data);
         ReplaceBuiltInFunction("_file_text_open_read", "file_text_open_read", @"if (string_count(working_directory, argument0) == 0)
             return file_text_open_read(global.save_directory + argument0)
         return file_text_open_read(argument0)", 1, data);
