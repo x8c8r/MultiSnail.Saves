@@ -1,1 +1,0 @@
-return file_exists(global.save_directory + "SettoIngs23-2.set");

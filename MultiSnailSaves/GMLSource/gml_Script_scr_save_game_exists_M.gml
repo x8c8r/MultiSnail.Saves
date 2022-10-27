@@ -1,2 +1,0 @@
-slot_prefix = gml_Script_scr_get_save_slot_prefix(global.active_save_slot)
-return (file_exists((global.save_directory + slot_prefix + "SaavoGame23-2.sav")) || file_exists(((global.save_directory + slot_prefix + "_alt_") + "SaavoGame23-2.sav")));

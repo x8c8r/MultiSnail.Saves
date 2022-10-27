@@ -18,3 +18,7 @@ set GAME_DIR=<game dir>
 
 2. Run `libs.bat`
 3. Build
+
+## Credits
+[Xeight(me)](https://github.com/x8c8r) - Made the mod
+[Name](https://github.com/Name2781) - Wrote 75% of the mod by making 3/4 wrapper functions.
