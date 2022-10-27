@@ -1,8 +1,9 @@
 {
-    "id": "com.github.x8c8r.sx",
-    "name": "SX",
+    "id": "com.github.x8c8r.multisnailsaves",
+    "name": "MultiSnail Saves",
     "version": "1.0.0",
-    "authors": [ "x8c8r" ],
+    "authors": [ "x8c8r", "Name" ],
+    "description": "Mod that allows you to have multiple save directories.",
     "dependencies": [
         {
             "id": "com.github.cgytrus.gmml.hooker",

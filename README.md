@@ -1,5 +1,9 @@
-# SX
-*this is basically snailax but with actual hacks*
+# MultiSnail.Saves
+Will You Snail? mod that adds an ability to have multiple save folders, all with different save files, options and e.t.c.
+
+## Usage
+Launch the game with a "-saveloc [Instance Name]" parameter
+It will make an "Instances" folder in your WYS save directory, inside of it you can find a folder named after your instance you specified.
 
 ## Installation
 1. Install [GMML](https://github.com/cgytrus/gmml)
